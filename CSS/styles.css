@@ -2,8 +2,89 @@
     width: 1000px;
     margin: 0 auto;
 }
+
 .header {
     background-color: red;
     height: 100px;
     
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.top {
+    background-color: yellow;
+    width: 250px;
+    height: 500px;
+    float: left;
+    position: relative;   
+}
+p.p1{
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.bottom {
+    background-color: palevioletred;
+    width: 250px;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+p.p2{
+    color: white;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+}
+
+.right {
+    background-color: darkblue;
+    width: 250px;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+p.p3 {
+    color: white;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+}
+.izquierda{
+    background-color: green;
+    width: 250px;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+p.p4 {
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.content1 {
+    background-color: lightskyblue;
+    width: 500px;
+    height: 200px;
+    float: left;
+}
+
+.content2 {
+    background-color: darkgray;
+    width: 500px;
+    height: 200px;
+    float: left;
+}
+.footer {
+    background-color: red;
+    height: 50px;
+}
+
+
